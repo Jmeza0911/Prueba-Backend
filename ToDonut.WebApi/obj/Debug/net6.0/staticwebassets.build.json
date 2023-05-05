@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "R5iPPBt3vGE87hgGqRWns2kBSf4UGAEUoE9RwtacN+o=",
+  "Source": "ToDonut.WebApi",
+  "BasePath": "_content/ToDonut.WebApi",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

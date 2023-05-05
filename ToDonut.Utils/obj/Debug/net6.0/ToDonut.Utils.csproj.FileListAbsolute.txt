@@ -1,0 +1,12 @@
+C:\Users\jmeza\Desktop\Back-End\.NET\ToDonut.Backend\ToDonut.Utils\bin\Debug\net6.0\ToDonut.Utils.deps.json
+C:\Users\jmeza\Desktop\Back-End\.NET\ToDonut.Backend\ToDonut.Utils\bin\Debug\net6.0\ToDonut.Utils.dll
+C:\Users\jmeza\Desktop\Back-End\.NET\ToDonut.Backend\ToDonut.Utils\bin\Debug\net6.0\ToDonut.Utils.pdb
+C:\Users\jmeza\Desktop\Back-End\.NET\ToDonut.Backend\ToDonut.Utils\obj\Debug\net6.0\ToDonut.Utils.csproj.AssemblyReference.cache
+C:\Users\jmeza\Desktop\Back-End\.NET\ToDonut.Backend\ToDonut.Utils\obj\Debug\net6.0\ToDonut.Utils.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\jmeza\Desktop\Back-End\.NET\ToDonut.Backend\ToDonut.Utils\obj\Debug\net6.0\ToDonut.Utils.AssemblyInfoInputs.cache
+C:\Users\jmeza\Desktop\Back-End\.NET\ToDonut.Backend\ToDonut.Utils\obj\Debug\net6.0\ToDonut.Utils.AssemblyInfo.cs
+C:\Users\jmeza\Desktop\Back-End\.NET\ToDonut.Backend\ToDonut.Utils\obj\Debug\net6.0\ToDonut.Utils.csproj.CoreCompileInputs.cache
+C:\Users\jmeza\Desktop\Back-End\.NET\ToDonut.Backend\ToDonut.Utils\obj\Debug\net6.0\ToDonut.Utils.dll
+C:\Users\jmeza\Desktop\Back-End\.NET\ToDonut.Backend\ToDonut.Utils\obj\Debug\net6.0\refint\ToDonut.Utils.dll
+C:\Users\jmeza\Desktop\Back-End\.NET\ToDonut.Backend\ToDonut.Utils\obj\Debug\net6.0\ToDonut.Utils.pdb
+C:\Users\jmeza\Desktop\Back-End\.NET\ToDonut.Backend\ToDonut.Utils\obj\Debug\net6.0\ref\ToDonut.Utils.dll

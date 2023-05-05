@@ -1,0 +1,15 @@
+C:\Users\jmeza\Desktop\Back-End\.NET\ToDonut.Backend\ToDonut.Datos\bin\Debug\net6.0\ToDonut.Datos.deps.json
+C:\Users\jmeza\Desktop\Back-End\.NET\ToDonut.Backend\ToDonut.Datos\bin\Debug\net6.0\ToDonut.Datos.dll
+C:\Users\jmeza\Desktop\Back-End\.NET\ToDonut.Backend\ToDonut.Datos\bin\Debug\net6.0\ToDonut.Datos.pdb
+C:\Users\jmeza\Desktop\Back-End\.NET\ToDonut.Backend\ToDonut.Datos\bin\Debug\net6.0\ToDonut.Dto.dll
+C:\Users\jmeza\Desktop\Back-End\.NET\ToDonut.Backend\ToDonut.Datos\bin\Debug\net6.0\ToDonut.Dto.pdb
+C:\Users\jmeza\Desktop\Back-End\.NET\ToDonut.Backend\ToDonut.Datos\obj\Debug\net6.0\ToDonut.Datos.csproj.AssemblyReference.cache
+C:\Users\jmeza\Desktop\Back-End\.NET\ToDonut.Backend\ToDonut.Datos\obj\Debug\net6.0\ToDonut.Datos.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\jmeza\Desktop\Back-End\.NET\ToDonut.Backend\ToDonut.Datos\obj\Debug\net6.0\ToDonut.Datos.AssemblyInfoInputs.cache
+C:\Users\jmeza\Desktop\Back-End\.NET\ToDonut.Backend\ToDonut.Datos\obj\Debug\net6.0\ToDonut.Datos.AssemblyInfo.cs
+C:\Users\jmeza\Desktop\Back-End\.NET\ToDonut.Backend\ToDonut.Datos\obj\Debug\net6.0\ToDonut.Datos.csproj.CoreCompileInputs.cache
+C:\Users\jmeza\Desktop\Back-End\.NET\ToDonut.Backend\ToDonut.Datos\obj\Debug\net6.0\ToDonut.Datos.csproj.CopyComplete
+C:\Users\jmeza\Desktop\Back-End\.NET\ToDonut.Backend\ToDonut.Datos\obj\Debug\net6.0\ToDonut.Datos.dll
+C:\Users\jmeza\Desktop\Back-End\.NET\ToDonut.Backend\ToDonut.Datos\obj\Debug\net6.0\refint\ToDonut.Datos.dll
+C:\Users\jmeza\Desktop\Back-End\.NET\ToDonut.Backend\ToDonut.Datos\obj\Debug\net6.0\ToDonut.Datos.pdb
+C:\Users\jmeza\Desktop\Back-End\.NET\ToDonut.Backend\ToDonut.Datos\obj\Debug\net6.0\ref\ToDonut.Datos.dll
