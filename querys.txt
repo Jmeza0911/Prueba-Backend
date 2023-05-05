@@ -1,0 +1,85 @@
+CREATE TABLE [dbo].[Estados](
+	[IdEstado] [int] NOT NULL,
+	[Estado] [varchar](32) NOT NULL,
+PRIMARY KEY CLUSTERED 
+(
+	[IdEstado] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]
+) ON [PRIMARY]
+GO
+
+
+CREATE TABLE [dbo].[Tareas](
+	[IdTarea] [int] IDENTITY(1,1) NOT NULL,
+	[FechaInicio] [datetime2](7) NULL,
+	[FechaFinal] [datetime2](7) NULL,
+	[Nombre] [varchar](50) NOT NULL,
+	[Accion] [varchar](50) NOT NULL,
+	[Responsable] [varchar](50) NOT NULL,
+	[Duracion] [varchar](50) NOT NULL,
+	[FKestado] [int] NOT NULL,
+PRIMARY KEY CLUSTERED 
+(
+	[IdTarea] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]
+) ON [PRIMARY]
+GO
+
+ALTER TABLE [dbo].[Tareas]  WITH CHECK ADD FOREIGN KEY([FKestado])
+REFERENCES [dbo].[Estados] ([IdEstado])
+GO
+
+
+procedimientos
+
+ALTER PROCEDURE [dbo].[ActualizarTarea] (
+	@IdTarea int,
+    @fechaInicio DATETIME2,
+    @fechaFinal DATETIME2,
+	@nombre varchar (50),
+    @accion VARCHAR(50),
+    @responsable VARCHAR(50),
+	@duracion VARCHAR(50),
+    @estado int 
+)
+AS
+    update tareas set 
+		 FechaInicio = @fechaInicio ,
+		 FechaFinal = @fechaFinal,
+		 Nombre =@nombre,
+		 Accion = @accion,
+		 Responsable = @responsable,
+		 Duracion =@duracion,
+		 Fkestado = @estado
+		 Where idTarea=@IdTarea
+
+		 Select idtarea,fechainicio,fechafinal,nombre,accion,responsable,duracion,fkestado as estado from tarea
+		 where idtarea = @IdTarea
+
+
+ALTER PROCEDURE [dbo].[AgregarTarea] (
+    @fechaInicio DATETIME2,
+    @fechaFinal DATETIME2,
+	@nombre varchar (50),
+    @accion VARCHAR(50),
+    @responsable VARCHAR(50),
+	@duracion VARCHAR(50),
+    @estado int 
+)
+AS
+    INSERT INTO Tareas VALUES (@fechaInicio, @fechaFinal, @nombre, @accion, @responsable, @duracion, @estado) 
+	SELECT * FROM Tareas WHERE IdTarea = SCOPE_IDENTITY();
+
+
+ALTER PROCEDURE [dbo].[EliminarTarea] (
+	@IdTarea int
+)
+AS
+    delete from tareas 
+		 Where idTarea=@IdTarea
+
+
+GO
+ALTER PROCEDURE [dbo].[ObtenerTareas] 
+AS
+	select * from tareas

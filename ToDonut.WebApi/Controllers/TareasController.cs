@@ -52,7 +52,7 @@ namespace ToDonut.WebApi.Controllers
         }
 
         [HttpPut("ActualizarTarea")]
-        public IActionResult ActualizarTarea(UpdateDto tarea)
+        public IActionResult ActualizarTarea([FromBody]UpdateDto tarea)
         {
             if (tarea == null)
                 return BadRequest();

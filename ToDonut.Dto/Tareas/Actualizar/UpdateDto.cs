@@ -3,12 +3,12 @@ namespace ToDonut.Dto.Tareas.Actualizar;
 
 public  class UpdateDto
 {
-    public int IdTarea { get; set; }
-    public string Nombre { get; set; }
-    public string Accion { get; set; }
-    public string Responsable { get; set; }
-    public string Duracion { get; set; }
-    public int Estado { get; set; }
-    public string FechaInicio { get; set; }
-    public string FechaFinal { get; set; }
+    public int idTarea { get; set; }
+    public string nombre { get; set; }
+    public string accion { get; set; }
+    public string responsable { get; set; }
+    public string duracion { get; set; }
+    public int estado { get; set; }
+    public string fechaInicio { get; set; }
+    public string fechaFinal { get; set; }
 }

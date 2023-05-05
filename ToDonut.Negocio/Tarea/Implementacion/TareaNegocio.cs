@@ -93,7 +93,7 @@ public class TareaNegocio : ITareaNegocio
         try
         {
             var actualizado = _tareasRepositorio.ActualizarTarea(tarea);
-            if (actualizado.IdTarea == tarea.IdTarea)
+            if (actualizado != null)
             {
                 response.Data = actualizado;
                 response.IsSuccess = true;

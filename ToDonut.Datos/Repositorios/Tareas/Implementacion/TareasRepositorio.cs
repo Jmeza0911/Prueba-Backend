@@ -66,18 +66,16 @@ public class TareasRepositorio : ITareasRepositorio
         {
             var query = "ActualizarTarea";
             var parameters = new DynamicParameters();
-            parameters.Add("Id", tarea.IdTarea);
-            parameters.Add("Nombre", tarea.Nombre);
-            parameters.Add("Accion", tarea.Accion);
-            parameters.Add("Responsable", tarea.Responsable);
-            parameters.Add("Duracion", tarea.Duracion);
-            parameters.Add("Estado", tarea.Estado);
-            parameters.Add("FechaInicio", tarea.FechaInicio);
-            parameters.Add("FechaFinal", tarea.FechaFinal);
+            parameters.Add("IdTarea", tarea.idTarea);
+            parameters.Add("nombre", tarea.nombre);
+            parameters.Add("accion", tarea.accion);
+            parameters.Add("responsable", tarea.responsable);
+            parameters.Add("duracion", tarea.duracion);
+            parameters.Add("estado", tarea.estado);
+            parameters.Add("fechaInicio", tarea.fechaInicio);
+            parameters.Add("fechaFinal", tarea.fechaFinal);
             var result = connection.QuerySingle<UpdateDto>(query, param: parameters, commandType: CommandType.StoredProcedure);
             return result;
         }
-
-
     }
 }
