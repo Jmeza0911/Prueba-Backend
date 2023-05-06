@@ -9,6 +9,6 @@ public  interface ITareaNegocio
 {
     Response<InsertarResponseDto> AgregarTarea(InsertarRequestDto tareaRequestDto);
     Response<IEnumerable<ObtenerRequestDto>> ObtenerTareas();
-    Response<int> Delete(string idTarea);
+    Response<int> EliminarTarea(string idTarea);
     Response<UpdateDto> ActualizarTarea(UpdateDto tarea);
 }

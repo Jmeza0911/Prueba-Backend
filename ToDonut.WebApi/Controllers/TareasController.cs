@@ -39,12 +39,12 @@ namespace ToDonut.WebApi.Controllers
 
             return BadRequest(response.Message);
         }
-        [HttpDelete("Delete/{IdTarea}")]
-        public IActionResult Delete(string IdTarea)
+        [HttpDelete("Eliminar/{IdTarea}")]
+        public IActionResult EliminarTarea(string IdTarea)
         {
             if (string.IsNullOrEmpty(IdTarea))
                 return BadRequest();
-            var response = _tareaNegocio.Delete(IdTarea);
+            var response = _tareaNegocio.EliminarTarea(IdTarea);
             if (response.IsSuccess)
                 return Ok(response);
 

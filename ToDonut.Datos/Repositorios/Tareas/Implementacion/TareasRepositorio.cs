@@ -48,7 +48,7 @@ public class TareasRepositorio : ITareasRepositorio
         }
     }
 
-    public bool Delete(int IdTarea)
+    public bool EliminarTarea(int IdTarea)
     {
         using (var connection = _context.CreateConnection())
         {

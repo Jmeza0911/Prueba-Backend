@@ -65,13 +65,13 @@ public class TareaNegocio : ITareaNegocio
         }
         return response;
     }
-    public Response<int> Delete(string IdTarea)
+    public Response<int> EliminarTarea(string IdTarea)
     {
         var response = new Response<int>();
 
         try
         {
-            var eliminado = _tareasRepositorio.Delete(Convert.ToInt32(IdTarea));
+            var eliminado = _tareasRepositorio.EliminarTarea(Convert.ToInt32(IdTarea));
             if (eliminado)
             {
                 response.Data = Convert.ToInt32(IdTarea);

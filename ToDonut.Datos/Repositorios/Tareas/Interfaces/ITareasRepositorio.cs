@@ -9,6 +9,6 @@ public interface ITareasRepositorio
     public InsertarResponseDto AgregarTarea(InsertarRequestDto tarea);
     public IEnumerable<ObtenerRequestDto> ObtenerTareas();
 
-    public bool Delete(int IdTarea);
+    public bool EliminarTarea(int IdTarea);
     public UpdateDto ActualizarTarea(UpdateDto tarea);
 }
